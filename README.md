@@ -31,8 +31,6 @@
 
 ---
 
-<br />
-
 ### 📕 Social Projects Contributions
 
 - [Avastar](http://avastar.fr/)
@@ -41,8 +39,6 @@
 - [Riepost](https://lobbydesconsciences.org/la-plateforme-riepost/)
 
 ---
-
-<br />
 
 ### 📚 Github activity
 
