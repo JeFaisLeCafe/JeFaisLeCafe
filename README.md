@@ -5,7 +5,7 @@
 - 🚶‍♂️ I'm currently looking for my new adventure ! If you're a recruiter, feel free to contact me for an opportunity, and we'll talk about it
 - 🎙️ I'm a volunteer audio comedian recording audiobooks for [BS](https://lesbibliothequessonores.org/mabibliothequesonore?id=148)
 - 🪙 I want to learn about Web3 and create something useful with it
-- 🏁 2022 Goals: Finish Lyon ½ marathon < 2h 🏃🏻‍♂️ & learn Russian 🇷🇺
+- 🏁 2023 Goals: Finish Lyon ½ marathon < 2h 🏃🏻‍♂️ & learn Russian 🇷🇺
 - ⚡ Fun fact: I love esport and cats
 
 ### Connect with me:
