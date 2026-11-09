@@ -1,47 +1,76 @@
-# Hi there, I'm Pierre-Étienne - aka JeFaisLeCafé ! 👋
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./img/flight-deck-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./img/flight-deck-light.svg">
+  <img alt="Interfaces. Worlds. Systems you can play. An aviation-inspired engineering log." src="./img/flight-deck-light.svg" width="100%">
+</picture>
 
-## I'm a Gamer, Developer and social project Contributor !
+# Pierre-Étienne Soury · JeFaisLeCafé
 
-- 🚶‍♂️ I'm currently looking for my new adventure ! If you're a recruiter, feel free to contact me for an opportunity, and we'll talk about it
-- 🎙️ I'm a volunteer audio comedian recording audiobooks for [BS](https://lesbibliothequessonores.org/mabibliothequesonore?id=148)
-- 🪙 I want to learn about Web3 and create something useful with it
-- 🏁 2023 Goals: Finish Lyon ½ marathon < 2h 🏃🏻‍♂️ & learn Russian 🇷🇺
-- ⚡ Fun fact: I love esport and cats
+**Software engineer & frontend developer.** I like turning complex systems into things you can explore, play with, and understand.
 
-### Connect with me:
+My projects range from procedural 3D worlds to game engines and interactive interfaces. Mostly TypeScript, React, and Three.js; Python when the experiment calls for it.
 
-[![website](./img/linkedin-light.svg)](https://www.linkedin.com/in/pierre-etienne-soury-66050511b/#gh-light-mode-only)
-[![website](./img/linkedin-dark.svg)](https://www.linkedin.com/in/pierre-etienne-soury-66050511b/#gh-dark-mode-only)
-&nbsp;&nbsp;
+[LinkedIn](https://www.linkedin.com/in/pierre-etienne-soury-66050511b/) · [Explore my repositories](https://github.com/JeFaisLeCafe?tab=repositories)
 
-### Languages and Tools:
+## 01 / Explore a world
 
-<img align="left" alt="Visual Studio Code" width="26px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" style="padding-right:10px;" />
-<img align="left" alt="HTML5" width="26px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" style="padding-right:10px;" />
-<img align="left" alt="CSS3" width="26px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" style="padding-right:10px;" />
-<img align="left" alt="JavaScript" width="26px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" style="padding-right:10px;" />
-<img align="left" alt="React" width="26px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" style="padding-right:10px;" />
-<img align="left" alt="Node.js" width="26px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" style="padding-right:10px;" />
-<img align="left" alt="MySQL" width="26px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" style="padding-right:10px;" />
-<img align="left" alt="Git" width="26px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" style="padding-right:10px;" />
-<img align="left" alt="GitHub" width="26px" src="https://user-images.githubusercontent.com/3369400/139447912-e0f43f33-6d9f-45f8-be46-2df5bbc91289.png" style="padding-right:10px;" />
+<a href="https://forest-demo-tawny.vercel.app">
+  <img src="./img/forest.png" alt="Gameplay from my Three.js forest: a first-person view through procedurally placed low-poly trees, rocks, and wildlife." width="100%">
+</a>
 
-<br />
-<br />
+### Procedural forest
+
+A low-poly forest you can walk through in your browser, with a hidden treasure to find. A new seed creates a new world.
+
+**Under the canopy:** seeded terrain and object placement, first-person movement and collisions, growing vegetation, and distance-based audio cues.
+
+`Three.js` `TypeScript` `Procedural generation`
+
+[Enter the forest ↗](https://forest-demo-tawny.vercel.app) · [Read the code](https://github.com/JeFaisLeCafe/forest-demo)
+
+## 02 / Understand the game
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./img/catan-systems-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./img/catan-systems-light.svg">
+  <img alt="An illustrated Catan board. Two projects explore deterministic game rules and decision-making research." src="./img/catan-systems-light.svg" width="100%">
+</picture>
+
+Two different ways of looking at Catan: implementing the rules, and investigating what makes a good decision.
+
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <h3>Catan game engine</h3>
+      <p>A TypeScript implementation of the game, with seeded randomness, immutable state, and an event history for analysis.</p>
+      <p><strong>The engineering:</strong> explicit game rules, typed state transitions, and reproducible simulations.</p>
+      <p><code>TypeScript</code> <code>Game logic</code></p>
+      <p><a href="https://github.com/JeFaisLeCafe/catan-game">Explore the engine ↗</a></p>
+    </td>
+    <td width="50%" valign="top">
+      <h3>Catan Coach</h3>
+      <p>Exploring how to evaluate Catan decisions through win probability. The research foundations include baseline models and a calibration harness.</p>
+      <p><strong>The engineering:</strong> separating domain logic from the game engine, and measuring prediction quality.</p>
+      <p><code>Python</code> <code>AI research</code> · In development</p>
+      <p><a href="https://github.com/JeFaisLeCafe/catan-coach">Follow the experiment ↗</a></p>
+    </td>
+  </tr>
+</table>
+
+## 03 / Sweat the interaction
+
+### Holographic card effects
+
+A React library for interactive Pokémon-style holographic cards: layered visual effects, pointer-driven tilt, and optional device-orientation input.
+
+**The frontend work:** reusable components, a dedicated interaction hook, and configurable effects. Inspired by [Simon Goellner's Pokémon card effects](https://poke-holo.simey.me/).
+
+`React` `TypeScript` `CSS` `Interaction design`
+
+[Explore the library ↗](https://github.com/JeFaisLeCafe/react-pokemon-card-effect)
 
 ---
 
-### 📕 Social Projects Contributions
+**Outside the editor:** flying planes, following esports, and occasionally turning the latter into code with projects like [LCK Elo ratings](https://github.com/JeFaisLeCafe/lck-elo-ratings).
 
-- [Avastar](http://avastar.fr/)
-- [My Job Glasses](https://www.myjobglasses.com/)
-- [Le lobby des consciences](https://lobbydesconsciences.org/)
-- [Riepost](https://lobbydesconsciences.org/la-plateforme-riepost/)
-
----
-
-### 📚 Github activity
-
-![JeFaisLeCafe's GitHub stats](https://github-readme-stats.vercel.app/api?username=JeFaisLeCafe&show_icons=true&theme=radical)
-
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=JeFaisLeCafe&layout=compact)](https://github.com/JeFaisLeCafe/github-readme-stats)
+*Je fais aussi le café.* ☕
